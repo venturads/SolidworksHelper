@@ -104,8 +104,12 @@ function getGar (){
         id: 6, name: "Sheet Metal Helper", link: "https://play.google.com/store/apps/details?id=com.venturads.SheetMetalHelper"
       },
       {
-        id: 6, name: "Venturads.com", link: "https://venturads.com"
-      }
+        id: 7, name: "Venturads.com", link: "https://venturads.com"
+      },
+      {
+        id: 8, name: "Privacy Policy", link: "http://venturads.com/pp.html"
+      },
+      
     ];
     let list = "";
     console.log("mylist: " + data[0].name);
