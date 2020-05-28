@@ -230,31 +230,31 @@ document.getElementById("root").innerHTML = "<div class='loader'></div>";
       url: "img/24.jpg",
       urlToImage: "img/24.jpg"
     },{
-      id: 2034,
+      id: 2044,
       title: "Mating3",
       content: "Seated Workbench",
       url: "img/25.jpg",
       urlToImage: "img/25.jpg"
     },  {
-      id: 2035,
+      id: 2045,
       title: "Shell Cavity",
       content: "Mill Direction",
       url: "img/26.jpg",
       urlToImage: "img/26.jpg"
     },{
-      id: 2036,
+      id: 2046,
       title: "Centroid",
       content: "Cutting Speeds",
       url: "img/27.jpg",
       urlToImage: "img/27.jpg"
     },{
-      id: 2037,
+      id: 2047,
       title: "Hot Keys",
       content: "Decimal Chart",
       url: "img/28.jpg",
       urlToImage: "img/28.jpg"
     },{
-      id: 2038,
+      id: 2048,
       title: "Insert Image",
       content: "Rpm",
       url: "img/29.jpg",
