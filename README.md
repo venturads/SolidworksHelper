@@ -1,1 +1,1 @@
-# SolidworksHelper
+# SheetmetalHelper
