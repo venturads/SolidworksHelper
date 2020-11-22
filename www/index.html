@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Welding Helper by Venturads.com</title>
+    <title>Solidworks Helper by Venturads.com</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -49,7 +49,7 @@
     <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
       <header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title" id="home-btn">Home</span>
+          <span class="mdl-layout-title" id="home-btn">My Helper</span>
           <div class="mdl-layout-spacer"></div>
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
             <div class="mdl-textfield__expandable-holder">
@@ -61,6 +61,7 @@
             <i class="material-icons">more_vert</i>
           </button>
           <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" id='app-list' for="hdrbtn">
+            <button onclick="boxSteps()" class='mdl-button mdl-js-button mdl-button--raised'>box step1</button>
             <li class="mdl-menu__item"><a href="https://play.google.com/store/apps/details?id=com.venturads.RPM_HELPER" target="_blank">RPM Helper</a></li>
             <li class="mdl-menu__item"><a href="https://play.google.com/store/apps/details?id=com.venturads.games.EndLine" target="_blank">EndLine</a></li>
             <li class="mdl-menu__item"><a href="https://play.google.com/store/apps/details?id=com.venturads.CNCHelperPlay" target="_blank">CNC Helper</a></li>
@@ -81,7 +82,7 @@
       </div>
       <main class="mdl-layout__content mdl-color--grey-100" id="mdl-layout__content">
         <div class="mdl-grid demo-content">
-          <div id="root" class="text-center">Click to Load Content!</div>
+          <div id="root" class="text-center">...</div>
 
           <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
             
@@ -142,6 +143,8 @@
 
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
+    <script type="text/javascript" src="hole-steps.js"></script>
+    <script type="text/javascript" src="box-step.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>

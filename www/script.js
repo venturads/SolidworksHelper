@@ -6,61 +6,61 @@ document.querySelector('.mdl-layout__drawer').addEventListener('click', function
 
 //go home page
 function getHome() {
-  document.getElementById('root').innerHTML = "<img src='./img/bg.gif' width='100%' height='100%'></div></div>";
+  document.getElementById('root').innerHTML = "";
 }
 document.getElementById('home-btn').addEventListener('click', getHome);
 document.getElementById('demo-avatar').addEventListener('click', getHome);
 // more menu list
 function getData (){
   // const n2 = 'https://venturads.com/helper-menu.json';
-  getHome();
+  //getHome();
 document.getElementById("content-app").innerHTML = "<div class='loader'></div>";
   let data=[
     {
       id: 2020,
-      title: "Chart",
+      title: "Box step1",
       content: "Welding Chart",
       url: "img/1.jpg",
       urlToImage: "img/1.jpg"
     },{
       id: 2021,
-      title: "Symbols",
+      title: "Box step2",
       content: "Symbols",
       url: "img/2.jpg",
       urlToImage: "img/2.jpg"
     },{
       id: 2022,
-      title: "Specs",
+      title: "Box step3",
       content: "Specs",
       url: "img/3.jpg",
       urlToImage: "img/3.jpg"
     },{
       id: 2023,
-      title: "Settings",
+      title: "Holes step1",
       content: "Settings",
       url: "img/4.jpg",
       urlToImage: "img/4.jpg"
     },{
       id: 2024,
-      title: "Basic Symbols",
+      title: "Holes step2",
       content: "Basic Symbols",
       url: "img/5.jpg",
       urlToImage: "img/5.jpg"
     },  {
       id: 2025,
-      title: "Chart",
+      title: "Holes step3",
       content: "Welding Chart",
       url: "img/6.jpg",
       urlToImage: "img/6.jpg"
     },{
       id: 2026,
-      title: "Data",
+      title: "Holes step4",
       content: "Data",
       url: "img/7.jpg",
       urlToImage: "img/7.jpg"
     },{
       id: 2027,
-      title: "Types",
+      title: "Holes step5",
       content: "Types",
       url: "img/8.jpg",
       urlToImage: "img/8.jpg"
