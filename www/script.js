@@ -8,8 +8,8 @@ document.querySelector('.mdl-layout__drawer').addEventListener('click', function
 function getHome() {
   document.getElementById('root').innerHTML = "";
 }
-document.getElementById('home-btn').addEventListener('click', getHome);
-document.getElementById('demo-avatar').addEventListener('click', getHome);
+document.getElementById('home-btn').addEventListener('click', homeRoot);
+document.getElementById('demo-avatar').addEventListener('click', homeRoot);
 // more menu list
 function getData (){
   // const n2 = 'https://venturads.com/helper-menu.json';
@@ -66,100 +66,130 @@ document.getElementById("content-app").innerHTML = "<div class='loader'></div>";
       urlToImage: "img/8.jpg"
     },{
       id: 2028,
-      title: "More Types",
+      title: "Allen key1",
       content: "More Types",
       url: "img/9.jpg",
       urlToImage: "img/9.jpg"
     },{
       id: 2029,
-      title: "Weld Joints",
+      title: "Allen key2",
       content: "Weld Joints",
       url: "img/10.jpg",
       urlToImage: "img/10.jpg"
     },{
       id: 2030,
-      title: "Process",
+      title: "Allen key3",
       content: "Process",
       url: "img/11.jpg",
       urlToImage: "img/11.jpg"
     },{
       id: 2031,
-      title: "Safety",
+      title: "Allen key4",
       content: "Safety",
       url: "img/12.jpg",
       urlToImage: "img/12.jpg"
     },{
       id: 2032,
-      title: "Equipment",
+      title: "Sheetmetal tool1",
       content: "Equipment",
       url: "img/13.jpg",
       urlToImage: "img/13.jpg"
     },{
       id: 2033,
-      title: "Workbench",
+      title: "Sheetmetal tool2",
       content: "Workbench",
       url: "img/14.jpg",
       urlToImage: "img/14.jpg"
     },{
       id: 2034,
-      title: "Seated Workbench",
+      title: "Sheetmetal tool3",
       content: "Seated Workbench",
       url: "img/15.jpg",
       urlToImage: "img/15.jpg"
     },  {
       id: 2035,
-      title: "Mill Direction",
+      title: "Sheetmetal tool4",
       content: "Mill Direction",
       url: "img/16.jpg",
       urlToImage: "img/16.jpg"
     },{
       id: 2036,
-      title: "Cutting Speeds",
+      title: "Sheetmetal tool5",
       content: "Cutting Speeds",
       url: "img/17.jpg",
       urlToImage: "img/17.jpg"
     },{
       id: 2037,
-      title: "Decimal Chart",
+      title: "Spring part1",
       content: "Decimal Chart",
       url: "img/18.jpg",
       urlToImage: "img/18.jpg"
     },{
       id: 2038,
-      title: "Rpm",
+      title: "Spring part2",
       content: "Rpm",
       url: "img/19.jpg",
       urlToImage: "img/19.jpg"
     },{
       id: 2039,
-      title: "Tap/Drill Chart",
+      title: "Spring part3",
       content: "Tap/Drill Chart",
       url: "img/20.jpg",
       urlToImage: "img/20.jpg"
     },{
       id: 2040,
-      title: "Inch/Metric Chart",
+      title: "Spring part4",
       content: "Inch/Metric Chart",
       url: "img/21.jpg",
       urlToImage: "img/21.jpg"
     },{
       id: 2041,
-      title: "Sheet Metal Charts",
+      title: "Spring part5",
       content: "Sheet Metal Charts",
       url: "img/22.jpg",
       urlToImage: "img/22.jpg"
     },{
       id: 2042,
-      title: "Weld Details",
+      title: "Mating Assembly1",
       content: "Weld Details",
       url: "img/23.jpg",
       urlToImage: "img/23.jpg"
     },{
       id: 2043,
-      title: "Metal Inert Gas",
+      title: "Mating Assembly2",
       content: "Metal Inert Gas",
       url: "img/24.jpg",
       urlToImage: "img/24.jpg"
+    },{
+      id: 2044,
+      title: "Mating Assembly3",
+      content: "Weld Details",
+      url: "img/25.jpg",
+      urlToImage: "img/25.jpg"
+    },{
+      id: 2045,
+      title: "Shell part1",
+      content: "Metal Inert Gas",
+      url: "img/26.jpg",
+      urlToImage: "img/26.jpg"
+    },{
+      id: 2046,
+      title: "Scaling part1",
+      content: "Weld Details",
+      url: "img/27.jpg",
+      urlToImage: "img/27.jpg"
+    },{
+      id: 2047,
+      title: "Shortcuts",
+      content: "Metal Inert Gas",
+      url: "img/28.jpg",
+      urlToImage: "img/28.jpg"
+    },{
+      id: 2048,
+      title: "Sketch Picture",
+      content: "Metal Inert Gas",
+      url: "img/29.jpg",
+      urlToImage: "img/29.jpg"
     }
   ];
   let list = "";

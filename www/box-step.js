@@ -7,6 +7,12 @@ function goFail ( ) {
 function goPass ( ) {
     alert('pass');
     document.getElementById('box-steps').style.color = 'lightgreen';
+    setTimeout(holeSteps, 1000);
+    
+}
+
+function img () {
+
 }
 
 function boxSteps () {
