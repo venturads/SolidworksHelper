@@ -1,18 +1,13 @@
 // box-steps.js
 function goFail ( ) {
-    alert('fail');
+    alert('Incorrect');
     document.getElementById('box-steps').style.color = 'red';
 }
 
 function goPass ( ) {
-    alert('pass');
+    alert('Correct');
     document.getElementById('box-steps').style.color = 'lightgreen';
-    setTimeout(holeSteps, 1000);
-    
-}
-
-function img () {
-
+    setTimeout(boxSteps2, 1000);
 }
 
 function boxSteps () {
