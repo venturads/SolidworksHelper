@@ -2,7 +2,7 @@
 function goPass3 ( ) {
     alert('Correct');
     document.getElementById('box-steps').style.color = 'lightgreen';
-    setTimeout(holeSteps4, 1000);
+    setTimeout(homeRoot, 1000);
 }
 
 function boxSteps3 () {

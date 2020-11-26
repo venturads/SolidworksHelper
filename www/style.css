@@ -14,6 +14,18 @@
     15% no-repeat gray;
 }
 
+.demo-card-square > .mdl-card__title_allen {
+  color: black;
+  background: url("./img/allen-key.jpg"),
+    15% no-repeat gray;
+}
+
+.demo-card-square > .mdl-card__title_sheetmetal {
+  color: black;
+  background: url("./img/sheetmetal1.jpg"),
+    15% no-repeat gray;
+}
+
 a{
   text-decoration: none;
 }
